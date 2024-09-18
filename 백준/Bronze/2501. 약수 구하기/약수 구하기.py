@@ -1,5 +1,4 @@
-def divisor():
-    n, k = map(int, input().split())
+def divisor(n, k):
 
     count = 0
 
@@ -12,4 +11,5 @@ def divisor():
     
     print(0)
 
-divisor()
+n, k = map(int, input().split())
+divisor(n, k)
